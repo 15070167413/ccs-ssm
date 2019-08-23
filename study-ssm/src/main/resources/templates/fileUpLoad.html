@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="Content-Type"; content="multipart/form-data; charset=utf-8"/>
+    <title>文件上传</title>
+</head>
+<body>
+<h1>这里是选择文档界面</h1>
+<h2>选择的文件是excel的话会导入到数据库中，并且备份到服务器文件夹中</h2>
+<form action="copyToDatabasebyfile" method="post" enctype="multipart/form-data">
+    <input type="file" name="myfile">
+    <br>
+    <br>
+    <br> <br>
+    <br>
+
+    <input type="submit" value="提交">
+
+</form>
+</body>
+</html>

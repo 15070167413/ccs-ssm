@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User1</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>city</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr >
+    <tr th:each="user:${list}">
+    <td th:text=${user.name}></td>
+    <td th:text=${user.age}></td>
+    <td th:text=${user.city}></td>
+    <td ><a th:href="${'/edit/'+user.name}">edit</a></td>
+    <td><a th:href="${'/del/'+user.name}" >delete</a></td>
+    </tr>
+    <tr colspan="5"><a href="/toAdd" role="button" style="text-decoration: none;border: 1px ;margin-left: 5%;text-align: center">增加用户</a></tr>
+
+</table>
+
+
+</body>
+</html>

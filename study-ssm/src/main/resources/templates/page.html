@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User1</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>city</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr >
+    <tr th:each="user:${list}">
+        <td th:text=${user.name}></td>
+        <td th:text=${user.age}></td>
+        <td th:text=${user.city}></td>
+        <td ><a th:href="${'/edit/'+user.name}">edit</a></td>
+        <td><a th:href="${'/del/'+user.name}" >delete</a></td>
+    </tr>
+
+
+
+
+
+
+
+    <tr><a href="/toAdd" >增加用户</a></tr>
+    <tr><a th:href="@{/page(pageNumberStr=(${pageNumber}-1))}" >上一页</a></tr>
+    <tr><a th:href="@{/page(pageNumberStr=(${pageNumber}+1))}" >下一页</a></tr>
+
+</table>
+当前第<p th:text=${pageNumber}>页</p>
+总页数：<p th:text=${tatol}>
+</body>
+</html>

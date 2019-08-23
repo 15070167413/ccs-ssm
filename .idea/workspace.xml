@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69570de8-06d1-4f43-baf9-5bf4d51533d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-ssm/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/main/java/study/confige/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/main/java/study/confige/SolrConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/main/java/study/dto/PageClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/main/java/study/util/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/main/java/study/util/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/main/java/study/util/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/main/resources/templates/solr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/main/resources/webapp/WEB-INF/jsp/ok1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/main/resources/webapp/WEB-INF/jsp/page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/test/java/study/CookieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/test/java/study/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/test/java/study/PageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/src/test/java/study/SolrTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/Application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/mapping/mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/static/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/Filter/TimeFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/StudyApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/confige/AopTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/confige/JacksonConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/confige/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/confige/MyBaticsPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/confige/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/confige/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/controller/ExcelController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/controller/FileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/controller/YzmController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/dto/PageInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/dto/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/dto/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/dto/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/dto/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/exception/Globalexception.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/interceptor/TimeInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/mapper/MpMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/util/ExcelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/util/ReadTextUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/util/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/study/util/TxtToVoice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/baidu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/error1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/error2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/fail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/fileUpLoad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/ok.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/classes/templates/user1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/test-classes/META-INF/my-ssm.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ssm/target/test-classes/study/RedisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/Filter/TimeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/confige/AopTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/confige/JacksonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/confige/MvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/confige/MyBaticsPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/confige/MyBaticsPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/confige/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/confige/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/dto/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/dto/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/interceptor/TimeInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/mapper/MpMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/mapper/MpMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/util/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/util/ReadTextUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/util/RedisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/java/study/util/TxtToVoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/resources/Application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-Plus/src/main/resources/Application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/main/resources/mapping/mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-Plus/src/main/resources/mapping/mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/test/java/study/MpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-Plus/src/test/java/study/MpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Plus/src/test/java/study/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-Plus/src/test/java/study/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dangjian-parent/dangjian-edu-online-impl/src/main/java/com/limin/eduonline/exam/controller/LearnExperienceReportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dangjian-parent/dangjian-edu-online-impl/src/main/java/com/limin/eduonline/exam/controller/LearnExperienceReportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dangjian-parent/dangjian-edu-online-impl/src/main/java/com/limin/eduonline/exam/service/LearnExperienceReportService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dangjian-parent/dangjian-edu-online-impl/src/main/java/com/limin/eduonline/exam/service/impl/LearnExperienceReportServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dangjian-parent/dangjian-edu-online-impl/src/main/java/com/limin/eduonline/exam/service/impl/LearnExperienceReportServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dangjian-parent/dangjian-leadership-transition-impl/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dangjian-parent/dangjian-leadership-transition-impl/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-ssm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-ssm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-ssm/src/main/java/study/StudyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-ssm/src/main/java/study/StudyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-ssm/src/main/java/study/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-ssm/src/main/java/study/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-ssm/src/main/java/study/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-ssm/src/main/java/study/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-ssm/src/main/java/study/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-ssm/src/main/java/study/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-ssm/src/main/resources/Application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-ssm/src/main/resources/Application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-ssm/src/main/resources/templates/user1.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-ssm/src/main/resources/templates/user1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-ssm/src/test/java/study/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-ssm/src/test/java/study/RedisTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Mybatis-Plus" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="374" />
+    <option name="y" value="80" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="my-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdeaProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69570de8-06d1-4f43-baf9-5bf4d51533d7" name="Default Changelist" comment="" />
+      <created>1566529651493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566529651493</updated>
+      <workItem from="1566529656518" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="56000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="RestServices" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

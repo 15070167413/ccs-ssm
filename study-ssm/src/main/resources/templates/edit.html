@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body class="container">
+<br>
+<h1>Edit  <small>Please fill in the information for the change</small></h1>
+<br>
+<form action="/editdo" method="post" class="form-horizontal">
+
+
+    姓名：<input type="text" name="name" th:value="${user.name}"><br>
+
+    年龄：<input type="text" name="age" th:value="${user.age}"><br>
+
+    城市：<input type="text" name="city" th:value="${user.city}"><br>
+
+    <input type="submit" value="edit">
+
+</form>
+
+<a th:href="${'/edit/'+user.name}">Reset</a>
+<a href="/list">Index</a>
+</body>
+</body>
+</html>
